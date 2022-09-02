@@ -1,0 +1,14 @@
+actionType
+1 - Registered user
+2 - Login
+3 - Logout
+4 - View all books
+5 - Create book
+6 - View specific book
+7 - Modify book
+8 - View all actions types
+9 - Create action type
+10 - Delete book
+11 - View specific action type
+12 - Modify action type
+13 - Delete action type
