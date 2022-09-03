@@ -22,14 +22,12 @@ En el repositorio se encuentra un archivo llamado endpoints.json el cual es un a
 Es importante aclarar que la prueba tecnica cuenta con permisos para usuarios, un usuario basico puede listar, crear y actualizar información pero no puede eliminarla, el usuario que puede realizar todas estas acciones es un usuario admin, a continuacion pondré las credenciales de acceso de cada usuario.
 
 1. usuario basico
-email:andres.p@gmail.com
-```
-password:123456
+. email:andres.p@gmail.com
+. password:123456
 
 2. usuario admin
-email:esteban.h@gmail.com
-```
-password:123456
+. email:esteban.h@gmail.com
+. password:123456
 
 ## Acciones posibles
 
