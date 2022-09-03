@@ -12,3 +12,7 @@ actionType
 11 - View specific action type
 12 - Modify action type
 13 - Delete action type
+
+
+ID de clave de acceso=AKIAVUWAVKDQUQXD3MWM
+Clave de acceso secreta=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

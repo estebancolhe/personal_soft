@@ -2,7 +2,7 @@ from .base import *
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ['localhost','*']
 
@@ -12,10 +12,10 @@ ALLOWED_HOSTS = ['localhost','*']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'prueba',
-        'USER': 'admin',
-        'PASSWORD': 'pru3b44dm1n',
-        'HOST': 'prueba.cpe6pww62uyr.us-east-1.rds.amazonaws.com',
+        'NAME': config('BD_NAME'),
+        'USER': config('BD_USER'),
+        'PASSWORD': config('BD_PASSWORD'),
+        'HOST': config('BD_HOST'),
         'PORT': '3306',
     }
 }

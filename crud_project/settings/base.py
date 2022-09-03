@@ -1,4 +1,5 @@
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -8,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-d26^9m@css)6+*&t_*0ls-gmjd8s2sht!$3o%)-c*#e59^y-b3'
+SECRET_KEY = config('SECRET_KEY')
 
 # Application definition
 
@@ -29,7 +30,6 @@ LOCAL_APPS = [
 
 THIRD_APPS = [
     'rest_framework',
-    #'drf_yasg',
 ]
 
 INSTALLED_APPS = BASE_APPS + LOCAL_APPS + THIRD_APPS
