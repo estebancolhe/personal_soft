@@ -13,7 +13,7 @@ from middlewares.currentURL import URL
 
 @api_view(["GET", "POST"])
 def allActionTypeApiView(request):
-    token_validation(request,[2])
+    token_validation(request,[1,2])
 
     if request.method == "GET":
 
@@ -72,7 +72,7 @@ def allActionTypeApiView(request):
 
 @api_view(["GET", "PUT"])
 def specificActiontypeApiView(request, pk=None,idUser=None):
-    token_validation(request,[2])
+    token_validation(request,[1,2])
 
     actionType = ActionType.objects.filter(id=pk).first()
 
