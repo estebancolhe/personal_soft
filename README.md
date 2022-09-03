@@ -23,10 +23,12 @@ Es importante aclarar que la prueba tecnica cuenta con permisos para usuarios, u
 
 1. usuario basico
 email:andres.p@gmail.com
+```
 password:123456
 
 2. usuario admin
 email:esteban.h@gmail.com
+```
 password:123456
 
 ## Acciones posibles
