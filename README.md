@@ -35,7 +35,7 @@ En la API se pueden realizar las siguientes acciones, registro de usuarios, logi
 
 ## Autenticacion
 
-Cuando un usuario realiza login, la API devuelve el token, este token debe enviarse como un header en los endpoints de CRUD para libros y CRUD para actionTypes.
+Cuando un usuario realiza login, la API devuelve el token, este token debe enviarse como un header en los endpoints de CRUD para libros y CRUD para actionTypes, ejemplo {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZW1haWwiOiJlc3RlYmFuLmhAZ21haWwuY29tIiwic3RhdHVzIjoxLCJleHAiOjE2NjQ4MjAxMjEsImlhdCI6MTY2MjIyODEyMX0.siqaQdcSasFj_l0pZe-GjKGmRsJow9frMYuj3MQQFpM"}
 
 ## Logger
 
